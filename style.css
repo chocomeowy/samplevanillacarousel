@@ -4,18 +4,10 @@ body {
     place-items: center;
   }
   
-  .slider {
-    width: 100%;
-    max-width: 800px;
-    height: 350px;
-    position: relative;
-    /* overflow: hidden; */
-  }
-  
   .slide {
     width: 100%;
     max-width: 800px;
-    height: 350px;
+    height: 500px;
     position: absolute;
     transition: all 0.5s;
   }
@@ -56,8 +48,8 @@ body {
   .slider {
     width: 100%;
     max-width: 800px;
-    height: 350px;
+    height: 500px;
     position: relative;
-    overflow: hidden;  /* <===  */
+    overflow: hidden;  
     border-radius: 15px;
   }
