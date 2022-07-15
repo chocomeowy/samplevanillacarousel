@@ -8,7 +8,7 @@ const nextSlide = document.querySelector('.btn-next');
 let curSlide = slides.length - 1;
 // maximum number of slides
 let maxSlide = slides.length - 1;
-console.log(curSlide);
+
 // add event listener and navigation functionality
 nextSlide.addEventListener('click', function () {
   // check if current slide is the last and reset current slide
@@ -22,7 +22,6 @@ nextSlide.addEventListener('click', function () {
   slides.forEach((slide, indx) => {
     slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
   });
-  console.log(curSlide);
 });
 
 // select prev slide button
